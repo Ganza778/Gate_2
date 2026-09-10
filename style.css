@@ -73,6 +73,12 @@ input {
 
 .main-nav a {
     white-space: nowrap;
+	padding-bottom: 15px;
+}
+
+.main-nav a:hover {
+	color:rgb(26, 90, 187);
+	border-bottom: 3px solid rgb(26, 90, 187);
 }
 
 .main-nav b {
