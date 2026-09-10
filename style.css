@@ -595,7 +595,13 @@ input {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    gap: 10px;
+}
+
+.impact-card:hover {
+    background-color: white;
+	color: #050505;
+	padding: 10px;
 }
 
 .impact-card img {
